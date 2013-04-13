@@ -1,0 +1,6 @@
+C++ program that solves the next problem.
+
+There is a multi-story building having M floors and several elevators. The floors are divided into areas, and each area can be accessed only through one elevator. The total number of apartments in each area on every floor is constant and equals to M. The apartments are numbered one-by-one, from the first to the last floor of first elevator's section, then moving to the second elevator from first ot last floor, etc. So we need to find out which elevator we must take (P1) and on which floor we must exit (N1) to get to apartment #K1. All we know is that in order to get to apartment #K2 we need to get elevator #P2 to the floor #N2.
+
+The input is five numbers: K1,M,K2,P2,N2.
+The output should be two numbers, P1 and N1. If input data does not allow us to determine any of these numbers, print 0 instead of undefined number. If input data is incorrect, print -1 twice.
